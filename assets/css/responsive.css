@@ -1,0 +1,384 @@
+@media (min-width: 1281px) and (max-width: 1600px) {
+.navbar ul li a{
+  font-size: 1.7vh;
+}
+
+.meio .brasil__canada img{
+  margin-left: 10em;
+}
+
+.meio .brasil__canada p{
+  padding: 0 6em 0 7em;
+}
+
+.meio .proposta__pedagogica img{
+  margin-left: 10em;
+}
+
+.meio .proposta__pedagogica h4{
+  padding: 0 8em 0 10em;
+}
+
+.meio .proposta__pedagogica h5{
+  padding: 0 8em 0 10em;
+}
+
+.meio .proposta__pedagogica p{
+  padding: 0 8em 0 10em;
+}
+  
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+.navbar ul li a{
+  font-size: 1.5vh;
+}
+.meio .brasil__canada img{
+  margin-left: 0;
+}
+
+.meio .brasil__canada p{
+  padding: 0 4em 0 5em;
+}
+
+.meio .proposta__pedagogica img{
+  margin-left: 0;
+}
+
+.meio .proposta__pedagogica h4{
+  padding: 0 4em 0 8.5em;
+}
+
+.meio .proposta__pedagogica h5{
+  padding: 0 4em 0 8.5em;
+}
+
+.meio .proposta__pedagogica p{
+  padding: 0 4em 0 8.5em;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.ml-8{
+  margin-left: 2rem!important;
+}
+
+.navbar{
+  background-color: #d71e41;
+  margin-top: 0px;
+}
+
+.navbar ul li a{
+  font-size: 1.35vh;
+}
+
+.meio .brasil__canada img{
+  margin-left: 0;
+}
+
+.meio .brasil__canada p{
+  padding: 0 1em 0 6em;
+}
+
+.meio .educacao__bilingue .baloes img{
+  max-width: 300px;
+}
+
+.meio .proposta__pedagogica img{
+  margin-left: 0;
+}
+
+.meio .proposta__pedagogica h4{
+  padding: 0 1em 0 6.5em;
+}
+
+.meio .proposta__pedagogica h5{
+  padding: 0 1em 0 6.5em;
+}
+
+.meio .proposta__pedagogica p{
+  padding: 0 1em 0 6.5em;
+}
+
+.meio .nossas__unidades img{
+  width: 470px;
+}
+
+.btn-block {
+  display: block;
+  width: 70%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+.ml-8{
+  margin-left: 0rem!important;
+}
+
+.navbar{
+  margin-top: 0px;
+}
+
+.navbar ul li a{
+  font-size: 1.7vh;
+}
+
+header {
+  height: 30vh;
+  margin-top: 110px;
+}
+
+header .play-video{
+  margin-top: 0px
+}
+
+header .btn__branco__borda{
+  background-color: #f7c212;
+  border-color: #f7c212;
+  padding: 10px 10px;
+  font-size: 1.5vh;
+}
+
+.meio .brasil__canada img{
+  display: none;
+}
+
+.meio .brasil__canada p{
+  padding-right: 0;
+}
+
+.meio .educacao__bilingue .titulo h4{
+  font-size: 4.336179295624333vh;
+}
+
+.meio .educacao__bilingue .titulo h3{
+  font-size: 9.672358591248665vh;
+}
+
+.meio .educacao__bilingue h4{
+  line-height: 1;
+}
+
+.meio .educacao__bilingue .baloes img{
+  max-width: 300px;
+}
+
+.meio .educacao__bilingue .proud-partners img{
+  max-width: 335px;
+}
+
+.meio .educacao__bilingue .partners{
+  margin-top: 4em;
+  text-align: center;
+}
+
+.meio .educacao__bilingue .partners img{
+  max-width: 180px;
+  padding-bottom: 2em;
+}
+
+.meio .proposta__pedagogica .titulo h4{
+  padding-right: 3.3em;
+  padding-left: 30px;
+  margin-bottom: 50px
+}
+
+.meio .proposta__pedagogica .titulo h3{
+  font-size: 7.372358591248665vh;
+  line-height: 0;
+}
+
+.meio .proposta__pedagogica img{
+  display: none;
+}
+
+.meio .proposta__pedagogica h4{
+  padding-right: 0em;
+}
+
+.meio .proposta__pedagogica h5{
+  padding-right: 0em;
+}
+
+.meio .proposta__pedagogica p{
+  padding-right: 0em;
+}
+
+.meio .nossas__unidades .titulo h4{
+  font-size: 4.336179295624333vh;
+}
+
+.meio .nossas__unidades .titulo h3{
+  font-size: 8.472358591248665vh;
+}
+
+.meio .nossas__unidades .col-md-6{
+  text-align: center;
+}
+
+.meio .nossas__unidades .btn__vermelho{
+  font-size: 2.0017075773746vh;
+}
+
+.meio .nossas__unidades img{
+  width: 380px;
+  margin-top: 2em;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+footer .col-md-3{
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+footer .col-md-2{
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+footer p{
+  text-align: center;
+}
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+.ml-8{
+  margin-left: 0rem!important;
+}
+
+.navbar ul li .btn__mb{
+  color: #d71e41;
+  background-color: #f7c212;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border: 2px solid #f7c212;
+  padding: 0.5em;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+}
+
+header .btn__branco__borda{
+  padding: 30px 10px;
+  font-size: 1.5vh;
+}
+
+.meio .brasil__canada img{
+  display: none;
+}
+
+.meio .brasil__canada p{
+  padding-right: 0;
+}
+
+.meio .educacao__bilingue .titulo h4{
+  font-size: 4.336179295624333vh;
+}
+
+.meio .educacao__bilingue .titulo h3{
+  font-size: 9.672358591248665vh;
+}
+
+.meio .educacao__bilingue h4{
+  line-height: 1;
+}
+
+.meio .educacao__bilingue .baloes img{
+  max-width: 300px;
+}
+
+.meio .educacao__bilingue .proud-partners img{
+  max-width: 300px;
+}
+
+.meio .educacao__bilingue .partners{
+  margin-top: 4em;
+  text-align: center;
+}
+
+.meio .educacao__bilingue .partners img{
+  max-width: 180px;
+  padding-bottom: 2em;
+}
+
+.meio .proposta__pedagogica .titulo h4{
+  padding-right: 3.3em;
+  padding-left: 30px;
+  margin-bottom: 50px
+}
+
+.meio .proposta__pedagogica .titulo h3{
+  font-size: 7.372358591248665vh;
+  line-height: 0;
+}
+
+.meio .proposta__pedagogica img{
+  display: none;
+}
+
+.meio .proposta__pedagogica h4{
+  padding-right: 0em;
+}
+
+.meio .proposta__pedagogica h5{
+  padding-right: 0em;
+}
+
+.meio .proposta__pedagogica p{
+  padding-right: 0em;
+}
+
+.meio .nossas__unidades .titulo h4{
+  font-size: 4.336179295624333vh;
+}
+
+.meio .nossas__unidades .titulo h3{
+  font-size: 8.472358591248665vh;
+}
+
+.meio .nossas__unidades .col-md-6{
+  text-align: center;
+}
+
+.meio .nossas__unidades .btn__vermelho{
+  font-size: 2.0017075773746vh;
+}
+
+.meio .nossas__unidades img{
+  width: 300px;
+  margin-top: 2em;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+footer .col-md-3{
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+footer .col-md-2{
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+footer p{
+  text-align: center;
+}
+}
