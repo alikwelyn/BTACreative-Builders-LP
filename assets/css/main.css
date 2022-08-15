@@ -1,3 +1,6 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 html {
   font-size: 100%;
   max-width: 100%;
@@ -56,8 +59,8 @@ a img {
   background-color:#1C2331
 }
 
-.ml-8{
-  margin-left: 4.5rem!important;
+header {
+  position: relative;
 }
 
 nav ul {
@@ -74,7 +77,6 @@ nav ul li a {
   text-decoration: none;
   color: #aaa;
   font-weight: 800;
-  text-transform: uppercase;
   margin: 0;
 }
 
@@ -85,64 +87,19 @@ nav ul li a:before {
 }
 
 nav .container-fluid{
-  padding: 0 20em;
+  padding: 1em 20em;
 }
 
 .navbar{
-  background-color: #d71e41;
-  margin-top: 25px;
+  background-image: linear-gradient(15deg, #137878 0%, #95ca7a 100%);
 }
 
 .navbar ul li a{
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   margin-left: .1em;
-  font-size: 1.4vh;
-  text-transform: uppercase;
-}
-
-nav.stroke ul li.nav-item a,
-nav.fill ul li.nav-item a {
-  position: relative;
-}
-nav.stroke ul li.nav-item a:after,
-nav.fill ul li.nav-item a:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: #fff;
-  height: 2px;
-}
-nav.stroke ul li.nav-item a:hover:after {
-  width: 100%;
-}
-
-nav.fill ul li.nav-item a {
-  transition: all 2s;
-}
-
-nav.fill ul li.nav-item a:after {
-  text-align: left;
-  content: '.';
-  margin: 0;
-  opacity: 0;
-}
-nav.fill ul li.nav-item a:hover {
-  color: #fff;
-  z-index: 1;
-}
-nav.fill ul li.nav-item a:hover:after {
-  z-index: -10;
-  animation: fill 1s forwards;
-  -webkit-animation: fill 1s forwards;
-  -moz-animation: fill 1s forwards;
-  opacity: 1;
+  font-size: 1.8vh;
 }
 
 .navbar-toggler {
@@ -153,537 +110,496 @@ nav.fill ul li.nav-item a:hover:after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(238, 29, 35, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-header {
-  position: relative;
-  background-color: white;
-  height: 80vh;
+#ensino_fundamental_ii {
+  margin: 8em 0;
+  background-color: #fff;
+}
+#ensino_fundamental_ii .col-md-6{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+#ensino_fundamental_ii .col-md-6 img{
   width: 100%;
-  overflow: hidden;
+}
+#ensino_fundamental_ii .txt{
+  padding: 0 5em;
+}
+#ensino_fundamental_ii .txt h1{
+  color: #335667;
+  font-size: 55px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+#ensino_fundamental_ii .txt h1 span{
+  color: #335667;
+  font-size: 47px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+#ensino_fundamental_ii .txt h2{
+  color: #007582;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  padding-top: 2em;
+}
+#ensino_fundamental_ii .txt p{
+  color: #007582;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  text-justify: inter-word;
+  width: 90%;
+  padding: .5em 0 2em 0;
+}
+#ensino_fundamental_ii .txt p strong{
+  color: #007582;
+  font-weight: 700;
+}
+#ensino_fundamental_ii .txt .btn{
+  background: url("../imgs/btn-bg.jpg") no-repeat;
+  position: absolute;
+  left: 0;
+  width: 699px;
+  height: 80px;
+  color: #fff;
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 70px 16px 0px;
 }
 
-header video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
+#promover_educacao {
+  margin: 1em 0;
+  background-color: #fff;
+}
+#promover_educacao .col-md-6{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+#promover_educacao .col-md-6 img{
+  width: 100%;
+}
+#promover_educacao .txt{
+  padding: 0 5em;
+}
+#promover_educacao .txt h2{
+  color: #007582;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+#promover_educacao .txt p{
+  color: #007582;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  text-justify: inter-word;
+  width: 90%;
+  padding: 3em 0;
+}
+#promover_educacao .txt p strong{
+  color: #007582;
+}
+#promover_educacao .txt h3{
+  color: #007582;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+#dna_builders {
+  margin-top: 5em;
+  padding: 5em 0;
+  background: url("../imgs/dna-builders-bg.jpg");
+}
+#dna_builders .col-md-6{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+#dna_builders .col-md-6 img{
+  width: 100%;
+}
+#dna_builders .txt{
+  padding: 0 5em;
+}
+#dna_builders .txt h1{
+  color: #fff;
+  font-size: 55px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+#dna_builders .txt h2{
+  color: #b8de78;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  padding-top: 2em;
+}
+
+#inovacao_humanidade{
+  background-color: #f2f2f2;
+  padding: 5em 0;
+}
+#inovacao_humanidade .container-fluid{
+  width: 75%;
+}
+#inovacao_humanidade h2{
+  color: #335667;
+  font-size: 55px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+#inovacao_humanidade .card{
+  background-color: transparent;
+  display: grid;
+  align-content: center;
+  text-align: center;
+  border: 0;
+  border-radius: 0;
+  margin-top: 6em;
+}
+#inovacao_humanidade .card-img-top{
   width: auto;
   height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background-color: white;
 }
-
-header .container {
-  position: relative;
-  z-index: 2;
-  background-color: white;
+#inovacao_humanidade .card-body {
+  padding: 0;
 }
-
-header .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: 1;
-}
-
-header .play-video{
-  margin-top: 100px
-}
-
-header .btn__branco__borda{
-  color: #fff;
-  background-color: transparent;
-  font-family: 'Montserrat', sans-serif;
+#inovacao_humanidade .card-body h4{
+  color: #007582;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  border: 2px solid #fff;
-  padding: 15px 25px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  text-transform: uppercase;
-  font-size: 1.7017075773746vh;
-	cursor: pointer;
-	transition: 0.4s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
-	position: relative;
-	z-index: 2;
+  padding-top: 2em;
 }
-
-header .btn__branco__borda:after {
-	content: "";
-	position: absolute;
-	transition: 0.4s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-header .btn__branco__borda:hover {
-	background-color: #d71e41;
-  border: 2px solid #d71e41;
-	color: #fff;
-}
-
-.col-12{
-  margin-top: -65px;
-  float: left;
-}
-
-.speaker {
-	height: 100px;
-	width: 100px;
-	position: relative;
-	overflow: hidden;
-	display: inline-block;
-  margin-bottom: 40px;
-}
-
-.speaker span {
-	display: block;
-	width: 8px;
-	height: 8px;
-	background: #fff;
-	margin: 11px 0 0 2px;
-  
-}
-
-.meio {
-  background-color: #fff;
-  margin: 4em 0 0 0;
-}
-
-.meio .brasil__canada{
-  background-color: #d91e42;
-  margin-top: 5em;
-  padding: 3.5em 0;
-}
-
-.meio .brasil__canada .titulo{
-  text-align: center;
-}
-
-.meio .brasil__canada .titulo h4{
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 5.336179295624333vh;
-  text-transform: uppercase;
-  line-height: 0;
-  padding-right:2em;
-}
-
-.meio .brasil__canada .titulo h3{
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 10.672358591248665vh;
-  text-transform: uppercase;
-}
-
-.meio .brasil__canada img{
-  margin-left: 20em;
-}
-
-.meio .brasil__canada p{
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
+#inovacao_humanidade .card-body p{
+  color: #000;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 2.3479188900747063vh;
-  padding-right: 17em;
-}
-
-.meio .educacao__bilingue{
-  background-image: url(../imgs/bg-listrado.png);
-}
-
-.meio .educacao__bilingue .titulo{
-  text-align: center;
-  margin-top: 5em;
-  margin-bottom: 3em;
-}
-
-.meio .educacao__bilingue .titulo h4{
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 5.336179295624333vh;
-  text-transform: uppercase;
-  line-height: 0;
-  padding-left:4.3em;
-}
-
-.meio .educacao__bilingue .titulo h3{
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 10.672358591248665vh;
-  text-transform: uppercase;
-}
-
-.meio .educacao__bilingue h4{
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 3.2017075773746vh;
-  text-transform: uppercase;
-  line-height: 0;
-  padding-left:.77em;
-  margin-bottom: .5em;
-}
-
-.meio .educacao__bilingue p{
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 2.3479188900747063vh;
-  margin-bottom: 2.5em;
-}
-
-.meio .educacao__bilingue .baloes img{
-  max-width: 350px;
-}
-
-.meio .educacao__bilingue .proud-partners{
-  margin-top: 4em;
-}
-
-.meio .educacao__bilingue .proud-partners img{
-  max-width: 600px;
-}
-
-.meio .educacao__bilingue .partners{
-  margin-top: 2em;
-}
-
-.meio .educacao__bilingue .partners img{
-  max-width: 180px;
-}
-
-.meio .proposta__pedagogica{
-  background-color: #f7c212;
-  margin-top: 5em;
-}
-
-.meio .proposta__pedagogica .titulo{
-  text-align: center;
-}
-
-.meio .proposta__pedagogica .titulo h4{
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 5.336179295624333vh;
-  text-transform: uppercase;
-  line-height: 0;
-  padding-right:11em;
-  margin-bottom: 30px;
-}
-
-.meio .proposta__pedagogica .titulo h3{
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 10.672358591248665vh;
-  text-transform: uppercase;
-  line-height: .75;
-}
-
-.meio .proposta__pedagogica img{
-  margin-left:20em;
-}
-
-.meio .proposta__pedagogica h4{
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 2.3479188900747063vh;
-  padding-right: 17em;
-  margin-bottom: 2em;
   line-height: 1;
+  padding-top: 2em;
 }
 
-.meio .proposta__pedagogica h5{
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
+#educacao-integral{
+  background-color: #fff;
+  padding: 5em 0;
+}
+#educacao-integral h2{
+  color: #009581;
+  font-size: 55px;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 2.3479188900747063vh;
-  padding-right: 17em;
-  margin-top: 4em;
-  margin-bottom: 2em;
+  text-align: center;
+  padding-bottom: 2em;
 }
-
-.meio .proposta__pedagogica p{
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 2.134471718249733vh;
-  padding-right: 17em;
+#educacao-integral .section-infographic{
+  background-color: #fff;
+  padding-bottom: 7em; 
 }
-
-.meio .nossas__unidades{
-  background-color: #ffffff;
-  margin-top: 0em;
-  padding-bottom: 4em;
-}
-
-.meio .nossas__unidades .titulo{
+#educacao-integral .section-infographic .row-infographic{
   text-align: center;
 }
-
-.meio .nossas__unidades .titulo h4{
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 5.336179295624333vh;
-  text-transform: uppercase;
-  line-height: 0;
-  padding-right:8em;
-  margin-bottom: 30px;
+#educacao-integral .section-infographic .row-infographic .infographic{
+  background: url("../imgs/ensino-fundamental-ii-2.jpg");
+  position: relative;
+  width: 1151px;
+  height: 746px;
+  display: inline-block;
 }
-
-.meio .nossas__unidades .titulo h3{
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
+#educacao-integral .section-infographic .row-infographic .infographic .box-1{
+  position: absolute;
+  top: -3px;
+  right: 720px;
+  z-index: 2;
+  text-align: left;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-1 .txt{
+  width: 350px;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-1 .txt h5{
+  font-size: 22px;
+  color: #335667;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 10.672358591248665vh;
-  text-transform: uppercase;
-  line-height: .75;
+  margin: 20px 0 0;
 }
-
-.meio .nossas__unidades h4{
+#educacao-integral .section-infographic .row-infographic .infographic .box-1 .txt p{
+  padding-top: 2em;
   color: #000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.8479188900747063vh;
-  margin-bottom: 1.3em;
-  padding-left: 0;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-2{
+  position: absolute;
+  top: 298px;
+  right: 793px;
+  z-index: 2;
+  text-align: left;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-2 .txt{
+  width: 330px;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-2 .txt h5{
+  font-size: 22px;
+  color: #335667;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-2 .txt p{
+  padding-top: 2em;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-3{
+  position: absolute;
+  top: 576px;
+  right: 753px;
+  z-index: 2;
+  text-align: left;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-3 .txt{
+  width: 350px;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-3 .txt h5{
+  font-size: 22px;
+  color: #335667;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-3 .txt p{
+  padding-top: 2em;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-4{
+  position: absolute;
+  top: 653px;
+  right: 200px;
+  z-index: 2;
+  text-align: left;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-4 .txt{
+  width: 400px;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-4 .txt h5{
+  font-size: 22px;
+  color: #335667;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-4 .txt p{
+  padding-top: 2em;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-5{
+  position: absolute;
+  top: 298px;
+  right: -10px;
+  z-index: 2;
+  text-align: left;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-5 .txt{
+  width: 350px;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-5 .txt h5{
+  font-size: 22px;
+  color: #335667;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-5 .txt p{
+  padding-top: 2em;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-6{
+  position: absolute;
+  top: 6px;
+  right: 2px;
+  z-index: 2;
+  text-align: left;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-6 .txt{
+  width: 400px;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-6 .txt h5{
+  font-size: 22px;
+  color: #335667;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+#educacao-integral .section-infographic .row-infographic .infographic .box-6 .txt p{
+  padding-top: 2em;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
-.meio .nossas__unidades .btn__vermelho{
-  color: #fff;
-  background-color: #D71E41;
-  font-family: 'Montserrat', sans-serif;
+#principais_duvidas{
+  background-color: #f2f2f2;
+  padding: 5em 0;
+}
+#principais_duvidas .container-fluid{
+  width: 75%;
+}
+#principais_duvidas h2{
+  color: #335667;
+  font-size: 55px;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  border: 2px solid #D71E41;
-  padding: 10px 0;
+  text-align: center;
+}
+#principais_duvidas #accordion {
+  margin-top: 3em;
+}
+#principais_duvidas .card {
+  margin-bottom: 1em;
+}
+#principais_duvidas .card .card-header {
+  background-color: #007582;
+  border-bottom: 0;
+}
+#principais_duvidas .card .card-header a h3,
+#principais_duvidas .card .card-header a h3 .collapsed {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+#principais_duvidas .card .card-header .accordion-head i{
+  font-size: 24px;
+}
+#principais_duvidas .card .card-header .accordion-head > .collapsed > h3 i:before{
+  content: "\2b";
+}
+#principais_duvidas .card .card-body {
+  color: #000;
+  background-color: #c0cdc2;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+#venha-estudar{
+  background-image: linear-gradient(15deg, #137878 0%, #95ca7a 100%);
+  padding: 5em 0;
+}
+#venha-estudar .container{
+  text-align: center;
+}
+#venha-estudar h3{
+  color: #fff;
+  font-size: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+}
+#venha-estudar .btn_red{
+  margin-top: 1em;
+}
+#venha-estudar .btn_red:hover{
+  background-color: #fff;
+  border-color: #fff;
+}
+#venha-estudar .btn{
+  color: #007582;
+  background-color: #b8de78;
+  border: 2px solid #b8de78;
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 90px;
+  margin-top: 1em;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
-  text-transform: uppercase;
-  font-size: 1.4017075773746vh;
-  text-align: center;
-  cursor: pointer;
-	transition: 0.4s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+#venha-estudar .btn:hover{
+  color: #b8de78;
+  background-color: #007582;
+  border: 2px solid #007582;
 }
 
-.meio .nossas__unidades .btn__vermelho:hover {
-  color: #D71E41;
-  background-color: transparent;
-  border: 2px solid #D71E41;
-}
-
-.btn-block {
-  display: block;
-  width: 50%;
-}
 
 footer {
-  background-color: #ee1d23;
+  background-color: #2e343d;
   padding: 2em 0 1em 0;
 }
-
-footer .btn__amarelo{
-  color: #fff;
-  background-color: #f7c212;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  border: 2px solid #f7c212;
-  padding: 10px 15px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  text-transform: uppercase;
-  font-size: 1.6017075773746vh;
-  text-align: center;
-  cursor: pointer;
-	transition: 0.4s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+footer .container-fluid{
+  width: 80%;
 }
-
-footer .btn-block {
-  display: block;
-  width: 100%;
-}
-
-footer .btn__amarelo:hover {
-  color: #fff;
-  background-color: transparent;
-  border: 2px solid #fff;
-}
-
-footer .col-md-2{
-  text-align: center;
-}
-
-footer .instagram svg{
-  width: 100px;
-}
-
-footer .instagram svg path{
-  color: #f7c212;
-  fill: currentcolor;
-  transition: 0.4s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-footer .instagram svg:hover path{
-  color: #fff;
-  fill: currentcolor;
-}
-
-footer .facebook svg{
-  width: 100px;
-}
-
-footer .facebook svg path{
-  color: #f7c212;
-  fill: currentcolor;
-  transition: 0.4s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-footer .facebook svg:hover path{
-  color: #fff;
-  fill: currentcolor;
-}
-
-footer .youtube svg{
-  width: 100px;
-}
-
-footer .youtube svg path{
-  color: #f7c212;
-  fill: currentcolor;
-  transition: 0.4s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-footer .youtube svg:hover path{
-  color: #fff;
-  fill: currentcolor;
-}
-
 footer p{
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 1.4941302027748133vh;
-  text-align: right;
-}
-
-.modal-dialog {
-  max-width: 1100px;
-  margin: 1.75rem auto;
-}
-
-.modal-title {
-  color: #D71E41;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 2.336179295624333vh;
-  text-transform: uppercase;
-  margin-bottom: 0;
-  line-height: 1.5;
-}
-
-.modal-body h3 {
-  color: #D71E41;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: left;
 }
-
-.modal-body p {
-  color: #343E47;
-  font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+footer p strong{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
 }
-
-.modal-body p strong a {
-  color: #D71E41;
-  font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
+footer p a.phone-link{
+  color: #fff;
 }
-
-/* Language Switcher */
-.language-dropdown {
-  height: 32px;
-  position: relative;
-  width: 80px;
-  margin-left: 1em;
+footer p a.phone-link:hover{
+  color: #b8de78;
 }
-.language-dropdown:before, .language-dropdown:after, .language-dropdown > * {
-  display: block;
-  position: absolute;
+footer p span.site-link{
+  color: #b8de78;
 }
-.language-dropdown:before, .language-dropdown:after {
-  content: "";
-  z-index: 2;
+footer .styled-icons a {
+  color: #fff;
+  font-size: 20px;
+  height: 35px;
+  line-height: 20px;
+  width: 35px;
+  float: left;
+  margin: 25px 7px 0 0;
+  padding: 5px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid #fff;
+  border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
 }
-.language-dropdown:before {
-  background-color: rgba(0, 0, 0, 0.15);
-  height: 20px;
-  left: 44px;
-  top: 6px;
-  width: 1px;
+footer .styled-icons a:hover {
+  color: #b8de78;
+  border: 2px solid #b8de78;
 }
-.language-dropdown:after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6 10'%3E%3Cpath d='M3 10l3-4H0l3 4zM3 0l3 4H0l3-4z' fill='%23565D6D' fill-rule='evenodd'/%3E%3C/svg%3E");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 6px 10px;
-  height: 24px;
-  right: 5px;
-  top: 4px;
-  width: 24px;
+footer .styled-icons li {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
 }
-.language-dropdown select, .language-dropdown .background {
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
-.language-dropdown select {
-  cursor: pointer;
-  display: block;
-  opacity: 0;
-  z-index: 3;
-}
-.language-dropdown select:hover + .background {
-  border-color: #9ea0a3;
-}
-.language-dropdown select:focus + .background {
-  box-shadow: -3px -3px 0 #a5bffc, 3px -3px 0 #a5bffc, 3px 3px 0 #a5bffc, -3px 3px 0 #a5bffc;
-}
-.language-dropdown .background {
-  background-color: #fff;
-  border-radius: 4px;
-  border: 1px solid #dbdfe2;
-  z-index: 1;
-}
-.language-dropdown .flags {
-  height: 24px;
-  left: 10px;
-  top: 4px;
-  width: 24px;
-  z-index: 2;
-}
-.language-dropdown .flags .flag {
-  display: none;
-  width: inherit;
-  height: inherit;
-  font-size: 0;
-  line-height: 0;
-}
-.language-dropdown .flags .flag.display {
-  display: block;
+footer p.copyright{
+  color: #abaeb2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
