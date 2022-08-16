@@ -1,29 +1,333 @@
 @media (min-width: 1281px) and (max-width: 1600px) {
-.navbar ul li a{
-  font-size: 1.7vh;
+nav .container-fluid{
+  padding: 1em 5em;
+}
+
+footer .container-fluid{
+  width: 100%;
+}
+footer iframe{
+  width: 430px;
+  height: 290px;
+}
+footer p{
+  font-size: 16px;
 }
   
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+nav .container-fluid{
+  padding: 1em 5em;
+}
 .navbar ul li a{
-  font-size: 1.5vh;
+  font-size: 20px;
+}
+
+#ensino-fundamental-ii .txt h1{
+  font-size: 40px;
+}
+#ensino-fundamental-ii .txt h1 span{
+  font-size: 30px;
+}
+#ensino-fundamental-ii .txt h2{
+  font-size: 25px;
+}
+#ensino-fundamental-ii .txt p{
+  font-size: 18px;
+}
+#ensino-fundamental-ii .txt .btn{
+  left: -100px;
+  padding: 16px 0px 16px 0px;
+}
+
+#promover_educacao .txt h2{
+  font-size: 30px;
+}
+#promover_educacao .txt p{
+  font-size: 18px;
+  padding: 1em 0;
+}
+#promover_educacao .txt h3{
+  font-size: 20px;
+}
+#dna_builders .txt h1{
+  font-size: 35px;
+}
+#dna_builders .txt h2{
+  font-size: 25px;
+}
+
+#inovacao_humanidade h2{
+  font-size: 30px;
+}
+#inovacao_humanidade .card-img-top{
+  width: 50%;
+}
+#inovacao_humanidade .card-body h4{
+  font-size: 22px;
+}
+#inovacao_humanidade .card-body p{
+  font-size: 18px;
+}
+
+#educacao-integral h2{
+  font-size: 40px;
+}
+#educacao-integral svg{
+  width: 90%;
+}
+
+#principais_duvidas h2{
+  font-size: 40px;
+}
+#principais_duvidas .card .card-header a h3,
+#principais_duvidas .card .card-header a h3 .collapsed {
+  font-size: 20px;
+}
+#principais_duvidas .card .card-header .accordion-head i{
+  font-size: 20px;
+}
+#principais_duvidas .card .card-body {
+  font-size: 18px;
+}
+
+#venha-estudar h3{
+  font-size: 35px;
+}
+
+footer .container-fluid{
+  width: 100%;
+}
+footer iframe{
+  width: 380px;
+  height: 290px;
+}
+footer p{
+  font-size: 16px;
 }
 
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-.navbar{
-  background-color: #d71e41;
-  margin-top: 0px;
+nav .container-fluid {
+  padding: 0;
 }
-
 .navbar ul li a{
-  font-size: 1.35vh;
+  font-size: 18px;
+}
+
+#ensino-fundamental-ii .txt h1{
+  font-size: 30px;
+}
+#ensino-fundamental-ii .txt h1 span{
+  font-size: 25px;
+}
+#ensino-fundamental-ii .txt h2{
+  font-size: 20px;
+}
+#ensino-fundamental-ii .txt p{
+  font-size: 16px;
+}
+#ensino-fundamental-ii .txt .btn{
+  left: -190px;
+  font-size: 22px;
+  padding: 20px 0px 20px 120px;
+}
+
+#promover_educacao .txt h2{
+  font-size: 25px;
+}
+#promover_educacao .txt p{
+  font-size: 18px;
+  padding: 1em 0;
+}
+#promover_educacao .txt h3{
+  font-size: 20px;
+}
+
+#dna_builders .txt h1{
+  font-size: 30px;
+}
+#dna_builders .txt h2{
+  font-size: 20px;
+}
+
+#inovacao_humanidade h2{
+  font-size: 30px;
+}
+#inovacao_humanidade .card-img-top{
+  width: 70%;
+}
+#inovacao_humanidade .card-body h4{
+  font-size: 18px;
+}
+#inovacao_humanidade .card-body p{
+  font-size: 16px;
+}
+
+#educacao-integral h2{
+  font-size: 35px;
+}
+#educacao-integral svg{
+  width: 90%;
+}
+
+#principais_duvidas h2{
+  font-size: 30px;
+}
+#principais_duvidas .card .card-header a h3,
+#principais_duvidas .card .card-header a h3 .collapsed {
+  font-size: 16px;
+}
+#principais_duvidas .card .card-header .accordion-head i{
+  font-size: 16px;
+}
+#principais_duvidas .card .card-body {
+  font-size: 16px;
+}
+
+#venha-estudar h3{
+  font-size: 30px;
+}
+
+footer .container-fluid{
+  width: 100%;
+}
+footer iframe{
+  width: 320px;
+  height: 290px;
+}
+footer p{
+  font-size: 16px;
 }
 
 }
 
-@media (min-width: 320px) and (max-width: 359px) {
+@media (min-width: 320px) and (max-width: 412px) {
+.navbar-toggler {
+    background-color: transparent;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+#ensino-fundamental-ii .txt h1{
+  font-size: 25px;
+  margin-top: 1em;  
+}
+#ensino-fundamental-ii .txt h1 span{
+  font-size: 20px;
+}
+#ensino-fundamental-ii .txt h2{
+  font-size: 20px;
+}
+#ensino-fundamental-ii .txt p{
+  font-size: 16px;
+  text-align: left;
+  text-justify: auto;
+  width: 100%;
+}
+#ensino-fundamental-ii .txt .btn{
+  left: -280px;
+  font-size: 18px;
+  padding: 25px 0px 25px 200px;
+}
+
+#promover_educacao .txt{
+  padding: 2em 2em 0 2em;
+}
+#promover_educacao .txt h2{
+  font-size: 25px;
+}
+#promover_educacao .txt p{
+  font-size: 18px;
+  padding: 1em 0;
+  width: 100%;
+}
+#promover_educacao .txt h3{
+  font-size: 20px;
+}
+
+#dna_builders .txt {
+  padding: 0 2em;
+  text-align: center;
+}
+#dna_builders .txt h1{
+  font-size: 25px;
+}
+#dna_builders .txt h2{
+  font-size: 20px;
+  padding-top: .5em;
+  padding-bottom: 1em;
+}
+#dna_builders form {
+  padding: 0 2em;
+}
+
+#inovacao_humanidade h2{
+  font-size: 25px;
+}
+
+#educacao-integral {
+  padding: 2em 0;
+}
+#educacao-integral h2{
+  font-size: 25px;
+  padding-bottom: 1em;
+}
+#educacao-integral svg{
+  width: 100%;
+}
+
+#principais_duvidas .col-md-12{
+  padding-right: 0;
+  padding-left: 0;
+}
+#principais_duvidas h2{
+  font-size: 30px;
+}
+#principais_duvidas .card .card-header a h3,
+#principais_duvidas .card .card-header a h3 .collapsed {
+  font-size: 16px;
+}
+#principais_duvidas .card .card-header .accordion-head i{
+  font-size: 16px;
+}
+#principais_duvidas .card .card-body {
+  font-size: 16px;
+}
+
+#venha-estudar h3{
+  font-size: 30px;
+}
+
+footer .container-fluid{
+  width: 100%;
+  text-align: center;
+}
+footer iframe{
+  width: 320px;
+  height: 290px;
+}
+footer p{
+  font-size: 16px;
+  text-align: center;
+}
+footer .logo{
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  text-align: center;
+}
+footer .logo img{
+  margin: 0 auto;
+}
+footer p.copyright{
+  color: #abaeb2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
 
 }

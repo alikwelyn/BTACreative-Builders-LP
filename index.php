@@ -64,9 +64,12 @@
 
     <main role="main">
 
-        <section id="ensino_fundamental_ii">
+        <section id="ensino-fundamental-ii">
           <div class="container-fluid">
               <div class="row">
+                  <div class="col-md-6 d-block d-md-none">
+                    <img src="assets/imgs/sobre-mb.jpg" alt="">
+                  </div>
                   <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out"
                       data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
                       <div class="txt">
@@ -76,7 +79,7 @@
                           <a href="#" class="btn">Conheça nossa proposta!</a>
                       </div>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 d-none d-md-block">
                     <img src="assets/imgs/sobre.jpg" alt="">
                   </div>
               </div>
@@ -86,7 +89,10 @@
         <section id="promover_educacao">
           <div class="container-fluid">
               <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-6 d-block d-md-none">
+                    <img src="assets/imgs/promover-educacao-mb.jpg" alt="">
+                  </div>
+                  <div class="col-md-6 d-none d-md-block">
                     <img src="assets/imgs/promover-educacao.jpg" alt="">
                   </div>
                   <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out"
@@ -115,26 +121,22 @@
 
                     <form>
                       <div class="form-row">
-                        <div class="form-group col-md-6">
-                          <label for="inputEmail4">Email</label>
-                          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        <div class="form-group col-md-12 col-lg-10 col-xl-8">
+                          <input type="text" class="form-control" id="nome" placeholder="Nome*">
                         </div>
                       </div>
-                      <div class="form-group col-md-6">
-                        <label for="inputAddress">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                      <div class="form-group col-md-12 col-lg-10 col-xl-8">
+                        <input type="text" class="form-control" id="email" placeholder="Email*">
                       </div>
-                      <div class="form-group col-md-6">
-                        <label for="inputAddress2">Address 2</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                      <div class="form-group col-md-12 col-lg-10 col-xl-8">
+                        <input type="text" class="form-control" id="celular" placeholder="Celular*">
                       </div>
                       <div class="form-row">
-                        <div class="form-group col-md-6">
-                          <label for="exampleFormControlTextarea1">Example textarea</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                        <div class="form-group col-md-12 col-lg-10 col-xl-8">
+                          <textarea class="form-control" id="mensagem" rows="8" placeholder="Deixe aqui a sua mensagem"></textarea>
                         </div>
                       </div>
-                      <button type="submit" class="btn btn-primary">Sign in</button>
+                      <a href="#" class="btn">Enviar</a>
                     </form>
 
                   </div>
@@ -192,8 +194,15 @@
                 <h2>Educação integral do jovem</h2>
               </div>
 
-              <div class="col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
+              <div class="col-md-12 aos-init aos-animate d-block d-md-none" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
+                <?php include("infographic-mb.php"); ?>
+              </div>
+
+              <div class="col-md-12 aos-init aos-animate d-none d-md-block" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
                 
+                <?php include("infographic.php"); ?>
+
+              
                 <div class="section-infographic">
                   <div class="row-infographic">
                     
@@ -386,8 +395,8 @@
               <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div>
-          <div class="col-md-4 d-flex align-items-end">
-            <img class="ml-auto" src="assets/imgs/logo.svg" width="300" alt="Builders Educação Bilíngue">
+          <div class="col-md-4 logo">
+            <img src="assets/imgs/logo.svg" width="300" alt="Builders Educação Bilíngue">
           </div>
           <div class="col-md-12 d-flex align-items-end">
             <p class="copyright">© 2021 Builders Educação Bilíngue. Todos os direitos reservados.</p>

@@ -99,7 +99,7 @@ nav .container-fluid{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   margin-left: .1em;
-  font-size: 1.8vh;
+  font-size: 22px;
 }
 
 .navbar-toggler {
@@ -110,40 +110,40 @@ nav .container-fluid{
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(238, 29, 35, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-#ensino_fundamental_ii {
+#ensino-fundamental-ii {
   margin: 8em 0;
   background-color: #fff;
 }
-#ensino_fundamental_ii .col-md-6{
+#ensino-fundamental-ii .col-md-6{
   padding-right: 0px;
   padding-left: 0px;
 }
-#ensino_fundamental_ii .col-md-6 img{
+#ensino-fundamental-ii .col-md-6 img{
   width: 100%;
 }
-#ensino_fundamental_ii .txt{
+#ensino-fundamental-ii .txt{
   padding: 0 5em;
 }
-#ensino_fundamental_ii .txt h1{
+#ensino-fundamental-ii .txt h1{
   color: #335667;
   font-size: 55px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
-#ensino_fundamental_ii .txt h1 span{
+#ensino-fundamental-ii .txt h1 span{
   color: #335667;
   font-size: 47px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
-#ensino_fundamental_ii .txt h2{
+#ensino-fundamental-ii .txt h2{
   color: #007582;
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   padding-top: 2em;
 }
-#ensino_fundamental_ii .txt p{
+#ensino-fundamental-ii .txt p{
   color: #007582;
   font-size: 22px;
   font-family: 'Roboto', sans-serif;
@@ -153,11 +153,11 @@ nav .container-fluid{
   width: 90%;
   padding: .5em 0 2em 0;
 }
-#ensino_fundamental_ii .txt p strong{
+#ensino-fundamental-ii .txt p strong{
   color: #007582;
   font-weight: 700;
 }
-#ensino_fundamental_ii .txt .btn{
+#ensino-fundamental-ii .txt .btn{
   background: url("../imgs/btn-bg.jpg") no-repeat;
   position: absolute;
   left: 0;
@@ -216,7 +216,9 @@ nav .container-fluid{
   padding: 5em 0;
   background: url("../imgs/dna-builders-bg.jpg");
 }
-#dna_builders .col-md-6{
+#dna_builders .col-md-6,
+#dna_builders .col-lg-10,
+#dna_builders .col-xl-6{
   padding-right: 0px;
   padding-left: 0px;
 }
@@ -239,6 +241,29 @@ nav .container-fluid{
   font-weight: 700;
   padding-top: 2em;
 }
+#dna_builders .btn{
+  color: #007582;
+  background-color: #b8de78;
+  border: 2px solid #b8de78;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 90px;
+  margin-top: 1em;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+#dna_builders .btn:hover{
+  color: #b8de78;
+  background-color: #007582;
+  border: 2px solid #007582;
+}
+
 
 #inovacao_humanidade{
   background-color: #f2f2f2;
@@ -286,6 +311,8 @@ nav .container-fluid{
   padding-top: 2em;
 }
 
+
+
 #educacao-integral{
   background-color: #fff;
   padding: 5em 0;
@@ -296,11 +323,20 @@ nav .container-fluid{
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-align: center;
-  padding-bottom: 2em;
+  padding-bottom: 0;
+}
+#educacao-integral svg{
+  width: 80%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 #educacao-integral .section-infographic{
   background-color: #fff;
   padding-bottom: 7em; 
+  display: none;
 }
 #educacao-integral .section-infographic .row-infographic{
   text-align: center;
@@ -560,6 +596,15 @@ footer p strong{
   font-size: 22px;
   font-weight: 700;
 }
+footer .logo{
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+footer .logo img{
+  margin-left: auto;
+}
 footer p a.phone-link{
   color: #fff;
 }
@@ -602,4 +647,49 @@ footer p.copyright{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+
+.form-row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.form-control {
+  background-color: #fff;
+  color: #abaeb2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.form-group {
+  margin-bottom: 0.5rem;
+}
+.form-group input::-moz-placeholder {
+  color: #abaeb2;
+}
+.form-group input:-ms-input-placeholder {
+  color: #abaeb2;
+}
+.form-group input::placeholder {
+  color: #abaeb2;
+}
+.form-control:focus,
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="number"]:focus,
+form input[type="url"]:focus,
+form input[type="search"]:focus,
+form input[type="tel"]:focus,
+form input[type="password"]:focus,
+form input[type="date"]:focus,
+form input[type="color"]:focus,
+form select:focus,
+form textarea:focus {
+  color: #abaeb2;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  outline: none;
 }
