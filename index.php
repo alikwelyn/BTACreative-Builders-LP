@@ -45,16 +45,25 @@
           <div class="collapse navbar-collapse" id="buildersmenu">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#sobre">Fundamental II</a>
+                <a class="nav-link" href="#sobre">A Builders</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#educacao-bilingue">Nosso ensino</a>
+                <a class="nav-link" href="#">Equipe</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#proposta-pedagogica">Educação integral</a>
+                <a class="nav-link" href="#educacao-bilingue">Proposta pedagógica</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#nossas-unidades">Venha estudar conosco</a>
+                <a class="nav-link" href="#proposta-pedagogica">Conheça nossa nova unidade</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nossas-unidades">Informações práticas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nossas-unidades">Entre em contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#dna_builders">Estude na Builders</a>
               </li>
             </ul>
           </div>
@@ -73,10 +82,10 @@
                   <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out"
                       data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
                       <div class="txt">
-                          <h1>Ensino Fundamental II<br><span>Builders Educação Bilíngue</span></h1>
-                          <h2>6º ano a partir de 2023.</h2>
-                          <p>O modelo de escola que você confia e acredita há tantos anos, agora também agora também com <strong>Ensino Fundamental II.</strong></p>
-                          <a href="#" class="btn">Conheça nossa proposta!</a>
+                          <h1>Ensino Fundamental II</h1>
+                          <h2>6º ano a partir de 2023</h2>
+                          <p>O modelo de escola que você confia e acredita há tantos anos, agora também com <strong>Ensino Fundamental II</strong></p>
+                          <a href="#dna_builders" class="btn">Conheça nossa proposta!</a>
                       </div>
                   </div>
                   <div class="col-md-6 d-none d-md-block">
@@ -98,9 +107,9 @@
                   <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out"
                       data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
                       <div class="txt">
-                          <h2>Promover uma educação de excelência, através do amor e para a sustentabilidade é o que sabemos fazer de melhor.</h2>
-                          <p>Aqui, os estudantes do Fundamental II vivenciarão um proposta pedagógica estruturada por especialistas excelentes, com os valores que vocês já conhecem, prontos para oferecer uma aprendizagem de ponta aos nossos alunos.</p>
-                          <h3>A partir de 2024 teremos uma unidade exclusiva para o Fundamental II!</h3>
+                          <h2>Promover uma educação de excelência, através do amor e para a sustentabilidade é o que sabemos fazer de melhor</h2>
+                          <p>Na Builders, os estudantes do Fundamental II vivenciam uma proposta pedagógica estruturada, com o acompanhamento de uma equipe acadêmica potente.</p>
+                          <h3>A partir de 2024 teremos uma unidade exclusiva para o Fundamental II</h3>
                       </div>
                   </div>
               </div>
@@ -113,7 +122,7 @@
                   <div class="col-md-6" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out"
                       data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
                       <div class="txt">
-                          <h1>Um Ensino Fundamental II<br>com o DNA Builders.</h1>
+                          <h1>Um Ensino Fundamental II<br>com o DNA Builders</h1>
                           <h2>Quer saber mais?</h2>
                       </div>
                   </div>
@@ -130,6 +139,16 @@
                       </div>
                       <div class="form-group col-md-12 col-lg-10 col-xl-8">
                         <input type="text" class="form-control" id="celular" placeholder="Celular*">
+                      </div>
+                      <div class="form-group col-md-12 col-lg-10 col-xl-8">
+                        <select type="text" class="form-control" id="celular" placeholder="Celular*">
+                          <option value="6ano2023">6º ano - 2023</option>
+                          <option value="6ano2024">6º ano - 2024</option>
+                          <option value="7ano2024">7º ano - 2024</option>
+                          <option value="8ano2024">8º ano - 2024</option>
+                          <option value="9ano2024">9º ano - 2024</option>
+                          <option value="outro">Outro</option>
+                        </select>
                       </div>
                       <div class="form-row">
                         <div class="form-group col-md-12 col-lg-10 col-xl-8">
@@ -148,15 +167,15 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
-                <h2>Aqui, os estudantes aprendem<br>com inovação e humanidade.</h2>
+                <h2>Na Builders, os estudantes aprendem<br>com inovação e humanidade</h2>
               </div>
 
                 <div class="col-md-4 aos-init aos-animate" data-aos="fade-right" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
                   <div class="card">
                     <img class="card-img-top mx-auto" src="assets/imgs/mundo-transformacao.jpg" alt="Educação para um mundo em transformação"/>
                     <div class="card-body">
-                      <h4>Educação para um mundo em transformação</h4>
-                      <p>Um ensino baseado em projetos, somado ao olhar atento e criativo dos educadores, forma essa combinação excelente que resulta no máximo desenvolvimento de cada estudante!</p>
+                      <h4>Educação para o futuro do trabalho</h4>
+                      <p>Um ensino  baseado em projetos interdisciplinares, atendendo aos conteúdos e habilidades propostos pela Base Nacional Comum Curricular (BNCC) e informado pelo relatório do World Economic Forum para o futuro do trabalho. Uma combinação excelente que fortalece tanto o desempenho acadêmico quanto as habilidades sociais e emocionais dos educandos.</p>
                     </div>
                   </div>
                 </div>
@@ -165,8 +184,8 @@
                   <div class="card">
                     <img class="card-img-top mx-auto" src="assets/imgs/tamanho-mundo.jpg" alt="Educação para um mundo em transformação"/>
                     <div class="card-body">
-                      <h4>Um ensino do tamanho do mundo</h4>
-                      <p>Aqui, convidamos os adolescentes a compreenderem o mundo de forma mais complexa. Os temas transversais na rotina dos estudantes são voltados para a construção de um pensamento crítico adequado aos desafios dos novos tempos.</p>
+                      <h4>Um jovem é do tamanho do mundo</h4>
+                      <p>Nossa educação é realmente integral: os aspectos cognitivos, emocionais e sociais da educação são mapeados, trabalhados, avaliados e documentados sistematicamente, por meio do mosaico, a  primeira plataforma digital de gestão de aprendizagem ativa baseada em projetos do mundo.</p>
                     </div>
                   </div>
                 </div>
@@ -289,7 +308,8 @@
         
                     <div id="nossosHorarios" class="collapse" role="tabpanel" aria-labelledby="accordionHeadingOne" aria-expanded="false">
                       <div class="card-body">
-                        Horário: das 7h45 às 15h45
+                      Segunda a quinta, das 7h45 às 16h<br>
+                      Sexta-feira, das 7h45 às 13h
                       </div>
                     </div>
                   </div>
@@ -300,7 +320,7 @@
                         <div class="col-12 no-padding accordion-head">
                           <a data-toggle="collapse" data-parent="#accordion" href="#cargaHoraria" aria-expanded="false" aria-controls="cargaHoraria"
                             class="collapsed ">
-                            <h3><i class="fa fa-minus"></i> A carga horária está estruturada para atender todas as demandas dos nossos estudantes?</h3>
+                            <h3><i class="fa fa-minus"></i> Educação integral na jornada regular</h3>
                           </a>
                         </div>
                       </div>
@@ -308,7 +328,7 @@
         
                     <div id="cargaHoraria" class="collapse" role="tabpanel" aria-labelledby="accordionHeadingOne" aria-expanded="false">
                       <div class="card-body">
-                        Horário: das 7h45 às 15h45
+                      Esportes, teatro, filosofia, ensino inter-religioso, música, yoga e meditação compõem o novo cronograma semanal, além das disciplinas já consolidadas no currículo.
                       </div>
                     </div>
                   </div>
@@ -319,7 +339,7 @@
                         <div class="col-12 no-padding accordion-head">
                           <a data-toggle="collapse" data-parent="#accordion" href="#atributosAlunos" aria-expanded="false" aria-controls="atributosAlunos"
                             class="collapsed ">
-                            <h3><i class="fa fa-minus"></i> Quais os atributos dos alunos que se formarão na Builders Educação?</h3>
+                            <h3><i class="fa fa-minus"></i> Alimentação</h3>
                           </a>
                         </div>
                       </div>
@@ -327,7 +347,7 @@
         
                     <div id="atributosAlunos" class="collapse" role="tabpanel" aria-labelledby="accordionHeadingOne" aria-expanded="false">
                       <div class="card-body">
-                        Horário: das 7h45 às 15h45
+                        Ajudamos os estudantes a  construir bons e afetuosos hábitos alimentares, para formar pessoas que valorizam uma alimentação saudável.
                       </div>
                     </div>
                   </div>
@@ -338,7 +358,7 @@
                         <div class="col-12 no-padding accordion-head">
                           <a data-toggle="collapse" data-parent="#accordion" href="#novaUnidade" aria-expanded="false" aria-controls="novaUnidade"
                             class="collapsed ">
-                            <h3><i class="fa fa-minus"></i> Como será a nova unidade para o Ensino Fundamental II?</h3>
+                            <h3><i class="fa fa-minus"></i> Uniforme</h3>
                           </a>
                         </div>
                       </div>
@@ -346,7 +366,7 @@
         
                     <div id="novaUnidade" class="collapse" role="tabpanel" aria-labelledby="accordionHeadingOne" aria-expanded="false">
                       <div class="card-body">
-                        Horário: das 7h45 às 15h45
+                        Adotaremos o uso do uniforme, sempre respeitando as necessidades da faixa etária, considerando as sugestões da nossa comunidade e a segurança dos estudantes. 
                       </div>
                     </div>
                   </div>
@@ -364,7 +384,7 @@
             <div class="row">
               <div class="col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000"> 
                 <h3>Venha estudar conosco!</h3>
-                <a href="#" class="btn">Acesse aqui!</a>
+                <a href="#dna_builders" class="btn">Clique aqui</a>
               </div>
             </div>
           </div>
@@ -380,13 +400,13 @@
           </div>
           <div class="col-md-4 align-self-center" data-aos="fade-right" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="200" data-aos-duration="1000">
             <p>
-              <strong>Endereço:</strong><br>
+              <strong>Endereço</strong><br>
               Rua Ribeiro de Barros, 128<br>
               Vila Anglo Brasileira<br>
               São Paulo – SP - 05027-020<br><br>
               
               Telefone: <a class="phone-link" href="tel:+1138723999">(11) 3872-3999</a><br>
-              <span class="site-link">www.builders.com.br</span>
+              <span class="site-link">builders.com.br</span>
             </p>
             <ul class="styled-icons icon-theme-colored list-inline">
               <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -396,7 +416,7 @@
             </ul>
           </div>
           <div class="col-md-4 logo">
-            <img src="assets/imgs/logo.svg" width="300" alt="Builders Educação Bilíngue">
+            <img src="assets/imgs/logo.svg" width="200" alt="Builders Educação Bilíngue">
           </div>
           <div class="col-md-12 d-flex align-items-end">
             <p class="copyright">© 2021 Builders Educação Bilíngue. Todos os direitos reservados.</p>

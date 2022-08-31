@@ -87,7 +87,7 @@ nav ul li a:before {
 }
 
 nav .container-fluid{
-  padding: 1em 20em;
+  padding: 1em 15em;
 }
 
 .navbar{
@@ -98,8 +98,8 @@ nav .container-fluid{
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  margin-left: .1em;
-  font-size: 22px;
+  margin-left: .5em;
+  font-size: 16px;
 }
 
 .navbar-toggler {
@@ -141,7 +141,7 @@ nav .container-fluid{
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 #ensino-fundamental-ii .txt p{
   color: #007582;
@@ -187,26 +187,26 @@ nav .container-fluid{
 }
 #promover_educacao .txt h2{
   color: #007582;
-  font-size: 35px;
+  font-size: 28px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 #promover_educacao .txt p{
   color: #007582;
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   text-align: justify;
   text-justify: inter-word;
   width: 90%;
-  padding: 3em 0;
+  padding: 1.5em 0;
 }
 #promover_educacao .txt p strong{
   color: #007582;
 }
 #promover_educacao .txt h3{
   color: #007582;
-  font-size: 30px;
+  font-size: 28px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
@@ -230,16 +230,16 @@ nav .container-fluid{
 }
 #dna_builders .txt h1{
   color: #fff;
-  font-size: 55px;
+  font-size: 35px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 #dna_builders .txt h2{
   color: #b8de78;
-  font-size: 30px;
+  font-size: 55px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 #dna_builders .btn{
   color: #007582;
@@ -288,23 +288,22 @@ nav .container-fluid{
   border-radius: 0;
   margin-top: 6em;
 }
-#inovacao_humanidade .card-img-top{
-  width: auto;
-  height: auto;
+#inovacao_humanidade img.card-img-top{
+  width: 115px;
 }
 #inovacao_humanidade .card-body {
   padding: 0;
 }
 #inovacao_humanidade .card-body h4{
   color: #007582;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   padding-top: 2em;
 }
 #inovacao_humanidade .card-body p{
   color: #000;
-  font-size: 18px;
+  font-size: 17px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1;
