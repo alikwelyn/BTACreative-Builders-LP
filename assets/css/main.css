@@ -664,6 +664,11 @@ footer p.copyright{
 .form-group {
   margin-bottom: 0.5rem;
 }
+.form-group .info {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
 .form-group input::-moz-placeholder {
   color: #abaeb2;
 }

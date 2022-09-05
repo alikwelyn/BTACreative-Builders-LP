@@ -131,17 +131,22 @@
                     <form>
                       <div class="form-row">
                         <div class="form-group col-md-12 col-lg-10 col-xl-8">
-                          <input type="text" class="form-control" id="nome" placeholder="Nome*">
+                          <div id="mail-status"></div>
+                          <span id="nome-info" class="info"></span>
+                          <input type="text" class="form-control" id="nome" name="nome" class="formValidation" placeholder="Nome*">
                         </div>
                       </div>
                       <div class="form-group col-md-12 col-lg-10 col-xl-8">
-                        <input type="text" class="form-control" id="email" placeholder="Email*">
+                        <span id="email-info" class="info"></span>
+                        <input type="text" class="form-control" id="email" name="email" class="formValidation" placeholder="Email*">
                       </div>
                       <div class="form-group col-md-12 col-lg-10 col-xl-8">
-                        <input type="text" class="form-control" id="celular" placeholder="Celular*">
+                        <span id="celular-info" class="info"></span>
+                        <input type="text" class="form-control" id="celular" name="celular" class="formValidation" placeholder="Celular*">
                       </div>
                       <div class="form-group col-md-12 col-lg-10 col-xl-8">
-                        <select type="text" class="form-control" id="celular" placeholder="Celular*">
+                        <span id="ano-info" class="info"></span>
+                        <select type="text" class="form-control" id="ano" name="ano" class="formValidation">
                           <option value="6ano2023">6º ano - 2023</option>
                           <option value="6ano2024">6º ano - 2024</option>
                           <option value="7ano2024">7º ano - 2024</option>
@@ -152,10 +157,11 @@
                       </div>
                       <div class="form-row">
                         <div class="form-group col-md-12 col-lg-10 col-xl-8">
-                          <textarea class="form-control" id="mensagem" rows="8" placeholder="Deixe aqui a sua mensagem"></textarea>
+                          <span id="mensagem-info" class="info"></span>
+                          <textarea class="form-control" id="mensagem" name="mensagem" class="formValidation" rows="8" placeholder="Deixe aqui a sua mensagem"></textarea>
                         </div>
                       </div>
-                      <a href="#" class="btn">Enviar</a>
+                      <a class="btn" name="submit" class="btnAction" onClick="sendContact();">Enviar</a>
                     </form>
 
                   </div>
@@ -428,6 +434,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>window.jQuery || document.write('<script src="assets/js/jquery-slim.min.js"><\/script>');</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
@@ -438,7 +445,78 @@
             $("body").addClass("loaded");
             $('.builders-preloader').fadeOut();
         }, 2000);
+
+        $('#celular').mask('(00) 0000-00009');
+        $('#celular').blur(function(event) {
+          if($(this).val().length == 15){ // Celular com 9 dígitos + 2 dígitos DDD e 4 da máscara
+            $('#celular').mask('(00) 00000-0009');
+          } else {
+            $('#celular').mask('(00) 0000-00009');
+          }
+        });
       });
+
+      function sendContact() {
+        var valid;	
+        valid = validateContact();
+        if(valid) {
+          jQuery.ajax({
+            url: "send_email.php",
+            data:'nome='+$("#nome").val()+'&email='+$("#email").val()+'&celular='+$("#celular").val()+'&ano='+$("#ano option:selected").text()+'&mensagem='+$("#mensagem").val(),
+            type: "POST",
+          success:function(data){
+            $("#mail-status").html(data);
+          },
+          error:function (){
+
+          }
+		      });
+        }
+      }
+
+function validateContact() {
+	var valid = true;	
+	$(".formValidation").css('background-color','');
+	$(".info").html('');
+	
+	if(!$("#nome").val()) {
+		$("#nome-info").html("(campo obrigatório)");
+		$("#nome").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	if(!$("#email").val()) {
+		$("#email-info").html("(campo obrigatório)");
+		$("#email").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	if(!$("#email").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+		$("#email-info").html("(email inválido)");
+		$("#email").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	if(!$("#celular").val()) {
+		$("#celular-info").html("(campo obrigatório)");
+		$("#celular").css('background-color','#FFFFDF');
+		valid = false;
+	}
+  if($("#celular").val() && $("#celular").val().length < 15 || $("#celular").val().length > 15) {
+		$("#celular-info").html("(celular inválido)");
+		$("#celular").css('background-color','#FFFFDF');
+		valid = false;
+	}
+  if(!$("#ano").val()) {
+		$("#ano-info").html("(campo obrigatório)");
+		$("#ano").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	if(!$("#mensagem").val()) {
+		$("#mensagem-info").html("(campo obrigatório)");
+		$("#mensagem").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	
+	return valid;
+}
     </script>
   </body>
 </html>
