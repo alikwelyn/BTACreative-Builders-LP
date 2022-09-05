@@ -122,8 +122,8 @@
                   <div class="col-md-6" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out"
                       data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
                       <div class="txt">
-                          <h1>Um Ensino Fundamental II<br>com o DNA Builders</h1>
                           <h2>Quer saber mais?</h2>
+                          <h1>Um Ensino Fundamental II<br>com o DNA Builders</h1>
                       </div>
                   </div>
                   <div class="col-md-6">
@@ -167,7 +167,7 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
-                <h2>Na Builders, os estudantes aprendem<br>com inovação e humanidade</h2>
+                <h2>Na Builders, os estudantes aprendem<br>com inovação e acolhimento</h2>
               </div>
 
                 <div class="col-md-4 aos-init aos-animate" data-aos="fade-right" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
@@ -308,8 +308,8 @@
         
                     <div id="nossosHorarios" class="collapse" role="tabpanel" aria-labelledby="accordionHeadingOne" aria-expanded="false">
                       <div class="card-body">
-                      Segunda a quinta, das 7h45 às 16h<br>
-                      Sexta-feira, das 7h45 às 13h
+                      Segunda a quinta, das 7h45 às 15h30<br>
+                      Sexta-feira, das 7h45 às 12h30
                       </div>
                     </div>
                   </div>
