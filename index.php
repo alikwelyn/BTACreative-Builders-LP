@@ -45,7 +45,7 @@
           <div class="collapse navbar-collapse" id="buildersmenu">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#sobre">A Builders</a>
+                <a class="nav-link" href="#aBuilders" data-toggle="modal" data-target="#aBuilders">A Builders</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Equipe</a>
@@ -70,6 +70,23 @@
         </div>
       </nav>
     </header>
+
+    <!-- Modal -->
+    <div class="modal fade" id="aBuilders" tabindex="-1" role="dialog" aria-labelledby="aBuildersTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">A Builders</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Nosso propósito é educar através do amor, formando cidadãos íntegros, autônomos, com pensamento crítico, conscientes da sua posição na sociedade, com foco na sustentabilidade do meio em que vivem e das suas relações com a comunidade.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <main role="main">
 
@@ -224,63 +241,7 @@
               </div>
 
               <div class="col-md-12 aos-init aos-animate d-none d-md-block" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
-                
-                <?php include("infographic.php"); ?>
-
-              
-                <div class="section-infographic">
-                  <div class="row-infographic">
-                    
-                      <div class="infographic">
-                        
-                        <div class="box-1">
-                          <div class="txt">
-                            <h5>Um ensino plural</h5>
-                            <p>Acesso às diversas formas de pensar e ver o mundo, desenvolvendo autoconhecimento e espírito crítico para que sejam protagonistas de suas próprias vidas.</p>                    
-                          </div>
-                        </div>	
-        
-                        <div class="box-2">
-                          <div class="txt">
-                            <h5>Cultura e esportes</h5>
-                            <p>Esportes, teatro, música e meditação. Jornadas de 7h45 a 15h45, de segunda a quinta, e de 7h45 a 13h na sexta-feira.</p>                    
-                          </div>
-                        </div>	
-        
-                        <div class="box-3">
-                          <div class="txt">
-                            <h5>Professores especialistas,<br>bivalentes, polivalentes e tutores</h5>
-                            <p>Os estudantes vivenciam a ampliação curricular com professores de várias áreas do conhecimento, além de um tutor por turma que acompanhará os avanços e os desafios dos alunos de forma individualizada.</p>                    
-                          </div>
-                        </div>		
-        
-                        <div class="box-4">
-                          <div class="txt">
-                            <h5>Sustentabilidade que realmente<br>se integra aos hábitos da comunidade</h5>
-                            <p>Os estudantes cuidam de hortas agroecológicas, compostam os alimentos e idealizam soluções economicamente viáveis, ecologicamente corretas e socialmente justas para a comunidade.</p>                    
-                          </div>
-                        </div>		
-        
-                        <div class="box-5">
-                          <div class="txt">
-                            <h5>Educação emocional e valores</h5>
-                            <p>Formamos nossos professores para reconhecerem e responderem às necessidades dos alunos. Os estudantes são encorajados a refletir e agir com consciência diante de conflitos e perceber o impacto de suas ações nos outros.</p>                    
-                          </div>
-                        </div>	
-        
-                        <div class="box-6">
-                          <div class="txt">
-                            <h5>Educação integral</h5>
-                            <p>Currículo adequado à BNCC com projetos interdisciplinares ligados a problemas reais, e atenção às competências para o mundo do trabalho indicadas pelo World Economic Forum.</p>                    
-                          </div>
-                        </div>	
-        
-                        <div class="circle-logo"></div>
-        
-                      </div>
-                  </div>
-                </div>
-
+                <img src="assets/imgs/grafico.svg" />
               </div>
                 
 

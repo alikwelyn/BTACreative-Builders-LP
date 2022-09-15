@@ -110,6 +110,26 @@ nav .container-fluid{
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(238, 29, 35, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal .modal-header h5{
+  color: #007582;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.modal .modal-body p{
+  color: #007582;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 #ensino-fundamental-ii {
   margin: 8em 0;
   background-color: #fff;
@@ -322,10 +342,10 @@ nav .container-fluid{
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-align: center;
-  padding-bottom: 0;
+  padding-bottom: 1em;
 }
-#educacao-integral svg{
-  width: 80%;
+#educacao-integral img{
+  width: 75%;
   position: relative;
   left: 50%;
   -webkit-transform: translateX(-50%);
