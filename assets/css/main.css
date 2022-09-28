@@ -618,7 +618,7 @@ nav .container-fluid{
   margin-top: 6em;
 }
 #equipe img.card-img-top{
-  width: 115px;
+  width: 282px;
 }
 #equipe .card-body {
   padding: 0;
@@ -628,7 +628,7 @@ nav .container-fluid{
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 #equipe .card-body p{
   color: #000;
@@ -636,7 +636,7 @@ nav .container-fluid{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 

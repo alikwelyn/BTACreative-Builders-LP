@@ -1,6 +1,10 @@
 @media (min-width: 1281px) and (max-width: 1600px) {
 nav .container-fluid{
-  padding: 1em 5em;
+  padding: 1em 2em;
+}
+
+#equipe .container-fluid{
+  width: 100%;
 }
 
 footer .container-fluid{
@@ -16,12 +20,13 @@ footer p{
   
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1201px) and (max-width: 1280px) {
 nav .container-fluid{
-  padding: 1em 5em;
+  padding: 1em 1em;
 }
 .navbar ul li a{
-  font-size: 20px;
+  font-size: 15px;
+  margin-left: 0;
 }
 
 #ensino-fundamental-ii .txt h1{
@@ -96,6 +101,108 @@ nav .container-fluid{
   font-size: 35px;
 }
 
+#equipe .container-fluid{
+  width: 100%;
+}
+
+footer .container-fluid{
+  width: 100%;
+}
+footer iframe{
+  width: 380px;
+  height: 290px;
+}
+footer p{
+  font-size: 16px;
+}
+
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+nav .container-fluid{
+  padding: 1em 0em;
+}
+.navbar ul li a{
+  font-size: 14px;
+  margin-left: 0;
+}
+
+#ensino-fundamental-ii .txt h1{
+  font-size: 40px;
+}
+#ensino-fundamental-ii .txt h1 span{
+  font-size: 30px;
+}
+#ensino-fundamental-ii .txt h2{
+  font-size: 25px;
+}
+#ensino-fundamental-ii .txt p{
+  font-size: 18px;
+}
+#ensino-fundamental-ii .txt .btn{
+  left: -100px;
+  padding: 16px 0px 16px 0px;
+}
+
+#promover_educacao .txt h2{
+  font-size: 30px;
+}
+#promover_educacao .txt p{
+  font-size: 18px;
+  padding: 1em 0;
+}
+#promover_educacao .txt h3{
+  font-size: 20px;
+}
+#dna_builders .txt h1{
+  font-size: 35px;
+}
+#dna_builders .txt h2{
+  font-size: 25px;
+}
+
+#inovacao_humanidade h2{
+  font-size: 30px;
+}
+#inovacao_humanidade .card-img-top{
+  width: 50%;
+}
+#inovacao_humanidade .card-body h4{
+  font-size: 22px;
+}
+#inovacao_humanidade .card-body p{
+  font-size: 18px;
+}
+
+#educacao-integral h2{
+  font-size: 40px;
+}
+#educacao-integral svg{
+  width: 90%;
+}
+
+#principais_duvidas h2{
+  font-size: 40px;
+}
+#principais_duvidas .card .card-header a h3,
+#principais_duvidas .card .card-header a h3 .collapsed {
+  font-size: 20px;
+}
+#principais_duvidas .card .card-header .accordion-head i{
+  font-size: 20px;
+}
+#principais_duvidas .card .card-body {
+  font-size: 18px;
+}
+
+#venha-estudar h3{
+  font-size: 35px;
+}
+
+#equipe .container-fluid{
+  width: 100%;
+}
+
 footer .container-fluid{
   width: 100%;
 }
@@ -114,7 +221,7 @@ nav .container-fluid {
   padding: 0;
 }
 .navbar ul li a{
-  font-size: 18px;
+  font-size: 11px;
 }
 
 #ensino-fundamental-ii .txt h1{
@@ -189,6 +296,28 @@ nav .container-fluid {
 
 #venha-estudar h3{
   font-size: 30px;
+}
+
+#equipe .container-fluid{
+  width: 100%;
+}
+#equipe h2{
+  font-size: 35px;
+}
+#equipe .card{
+  margin-top: 3em;
+}
+#equipe img.card-img-top{
+  width: 200px;
+}
+#equipe .card-body {
+  padding: 0;
+}
+#equipe .card-body h4{
+  font-size: 16px;
+}
+#equipe .card-body p{
+  font-size: 14px;
 }
 
 footer .container-fluid{
@@ -299,6 +428,28 @@ footer p{
 
 #venha-estudar h3{
   font-size: 30px;
+}
+
+#equipe .container-fluid{
+  width: 100%;
+}
+#equipe h2{
+  font-size: 35px;
+}
+#equipe .card{
+  margin-top: 3em;
+}
+#equipe img.card-img-top{
+  width: 200px;
+}
+#equipe .card-body {
+  padding: 0;
+}
+#equipe .card-body h4{
+  font-size: 16px;
+}
+#equipe .card-body p{
+  font-size: 16px;
 }
 
 footer .container-fluid{

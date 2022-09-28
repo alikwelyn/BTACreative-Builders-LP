@@ -48,7 +48,7 @@
                 <a class="nav-link" href="#aBuilders" data-toggle="modal" data-target="#aBuilders">A Builders</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Equipe</a>
+                <a class="nav-link" href="equipe">Equipe</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#educacao-bilingue">Proposta pedagógica</a>

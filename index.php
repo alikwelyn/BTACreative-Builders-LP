@@ -5,8 +5,7 @@ require_once 'api/route.php';
 $route = new Route();
 
 $route->add('/', function() {
-  //include ( 'routes/home.php' );
-  include ( 'routes/equipe.php' );
+  include ( 'routes/home.php' );
 });
 $route->add('/equipe', function() {
   include ( 'routes/equipe.php' );
